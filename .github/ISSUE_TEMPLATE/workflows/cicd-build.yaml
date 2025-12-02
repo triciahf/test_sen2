@@ -1,0 +1,3 @@
+jobs:
+  call-workflow-passing-data:
+    uses: .github/blob/main/.github/workflows/ci-build.yaml@main
