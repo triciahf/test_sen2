@@ -1,3 +1,11 @@
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
 jobs:
   call-workflow-passing-data:
     uses: ./.github/.github/workflows/ci-build.yaml@main
