@@ -10,4 +10,4 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    uses: ./.github/.github/workflows/ci-build.yaml@main
+    uses: triciahf/.github/.github/workflows/ci-build.yaml@main
